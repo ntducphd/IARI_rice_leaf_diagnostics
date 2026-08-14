@@ -1,0 +1,11 @@
+Abbreviation,Trait,Unit,Instrument,Measurement position or formula,Timing
+CCI_TL,"Chlorophyll concentration index, top leaf",µmol m⁻²,Apogee MC-100,"youngest fully expanded leaf, 10 cm below the tip","0, 30, 60 DAT"
+CCI_BL,"Chlorophyll concentration index, bottom leaf",µmol m⁻²,Apogee MC-100,"lowest green leaf, 10 cm below the tip","0, 30, 60 DAT"
+rCCI,Ratio of bottom-leaf to top-leaf chlorophyll concentration index,dimensionless,derived,CCI_BL / CCI_TL,"30, 60 DAT"
+QY_TL,"Maximum quantum yield of photosystem II, top leaf",dimensionless (Fv/Fm),"FluorPen FP-100, dark-adapted",youngest fully expanded leaf,"0, 30, 60 DAT"
+QY_BL,"Maximum quantum yield of photosystem II, bottom leaf",dimensionless (Fv/Fm),"FluorPen FP-100, dark-adapted",lowest green leaf,"0, 30, 60 DAT"
+rQY,Ratio of bottom-leaf to top-leaf quantum yield,dimensionless,derived,QY_BL / QY_TL,"30, 60 DAT"
+Photo,Net photosynthetic rate,µmol CO₂ m⁻² s⁻¹,LI-6400XT,"1000 µmol m⁻² s⁻¹ PAR, 30 °C, 60% RH, 400 µmol mol⁻¹ CO₂","0, 30, 60 DAT"
+Cond,Stomatal conductance,mol H₂O m⁻² s⁻¹,LI-6400XT,as above,"0, 30, 60 DAT"
+Ci,Intercellular CO2 concentration,µmol CO₂ mol⁻¹,LI-6400XT,as above,"0, 30, 60 DAT"
+Tr,Transpiration rate,mmol H₂O m⁻² s⁻¹,LI-6400XT,as above,"0, 30, 60 DAT"

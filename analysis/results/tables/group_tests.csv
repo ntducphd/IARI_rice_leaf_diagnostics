@@ -1,0 +1,19 @@
+panel,trait,group,n_control,n_lowN,test,stat,p,mannwhitney_p,cohens_d
+Fig7a,rCCI_30,susceptible,27,27,Welch t,13.7514,3.06371e-18,5.88832e-10,3.74266
+Fig7a,rCCI_30,moderately tolerant,12,12,Welch t,8.02045,6.18905e-08,4.69487e-05,3.27433
+Fig7a,rCCI_30,tolerant,6,6,Welch t,7.01042,3.67022e-05,0.0021645,4.04747
+Fig7a,QY_BL_30,susceptible,27,27,Welch t,20.4975,1.56797e-19,2.55472e-10,5.5787
+Fig7a,QY_BL_30,moderately tolerant,12,12,Welch t,27.0872,2.12748e-16,3.27552e-05,11.0583
+Fig7a,QY_BL_30,tolerant,6,6,Welch t,7.07028,0.000301084,0.00492204,4.08203
+Fig6,CCI_TL,Control,15,15,"paired t, 30 vs 60 DAT",-2.17878,0.0469282,,-0.562558
+Fig6,CCI_TL,NStress,15,15,"paired t, 30 vs 60 DAT",0.099972,0.921784,,0.0258127
+Fig6,CCI_BL,Control,15,15,"paired t, 30 vs 60 DAT",-1.81012,0.091789,,-0.467371
+Fig6,CCI_BL,NStress,15,15,"paired t, 30 vs 60 DAT",-1.76783,0.0988668,,-0.456452
+Fig6,QY_TL,Control,15,15,"paired t, 30 vs 60 DAT",-0.154957,0.879067,,-0.0400098
+Fig6,QY_TL,NStress,15,15,"paired t, 30 vs 60 DAT",-4.27022,0.000777084,,-1.10257
+Fig6,QY_BL,Control,15,15,"paired t, 30 vs 60 DAT",1.41748,0.178212,,0.365993
+Fig6,QY_BL,NStress,15,15,"paired t, 30 vs 60 DAT",-2.43514,0.0288567,,-0.62875
+Fig6,rCCI,Control,15,15,"paired t, 30 vs 60 DAT",1.05569,0.30899,,0.272577
+Fig6,rCCI,NStress,15,15,"paired t, 30 vs 60 DAT",-2.07581,0.0568158,,-0.535971
+Fig6,rQY,Control,15,15,"paired t, 30 vs 60 DAT",1.04974,0.311622,,0.271042
+Fig6,rQY,NStress,15,15,"paired t, 30 vs 60 DAT",0.936142,0.365068,,0.241711

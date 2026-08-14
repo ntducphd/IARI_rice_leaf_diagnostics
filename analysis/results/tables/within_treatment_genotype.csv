@@ -1,0 +1,5 @@
+trait,treatment,df_G,df_e,F_genotype,p_genotype,icc_genotype,genotype_mean_min,genotype_mean_max,genotype_mean_range,treatment_shift
+rCCI_30,control,14,30,3.874,0.0009052846241727014,0.489,0.753,1.028,0.275,0.34
+rCCI_30,lowN,14,30,4.597,0.00022488854704947686,0.545,0.43,0.752,0.322,0.34
+QY_BL_30,control,14,30,1.518,0.16424849570368047,0.147,0.817,0.847,0.03,0.173
+QY_BL_30,lowN,14,30,8.649,4.6513675307689484e-07,0.718,0.607,0.743,0.137,0.173

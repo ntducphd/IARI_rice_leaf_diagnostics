@@ -1,0 +1,2 @@
+wilks_lambda,wilks_chi2,wilks_df,wilks_p,canonical_r,canonical_r2_pct,box_M,box_chi2,box_df,box_p,resub_misclassified,n,qybl_threshold,qybl_thr_lo,qybl_thr_hi,qybl_gap_lo,qybl_gap_hi,n_bootstrap
+0.0924849,207.122,2,1.05702e-45,0.952636,90.7515,59.3379,57.8769,3,1.66991e-12,0,90,0.76,0.73,0.76,0.76,0.8,5000

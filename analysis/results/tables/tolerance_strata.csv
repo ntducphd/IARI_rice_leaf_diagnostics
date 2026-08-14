@@ -1,0 +1,16 @@
+genotype,tolerance,correct,n,margin_control,margin_lowN
+BAM3690,susceptible,6,6,-22.3941,28.9808
+BAM4138,susceptible,6,6,-22.5734,16.6111
+BAM4521,moderately tolerant,6,6,-19.6763,23.484
+BAM812,susceptible,6,6,-20.5337,6.34963
+BAM8315,susceptible,6,6,-21.323,26.4713
+BLACKGORA,moderately tolerant,6,6,-15.6405,23.2343
+CAUVERY,tolerant,6,6,-20.6997,7.59775
+IR77298141210,susceptible,6,6,-19.7296,11.8063
+IR83388BB1083,susceptible,6,6,-16.0966,12.6135
+KUNJUKUNJU,moderately tolerant,6,6,-16.8549,24.9575
+MALCHI,susceptible,6,6,-17.9562,23.5568
+MOROBERAKAN,susceptible,6,6,-19.8512,22.1249
+PUSA1121,susceptible,6,6,-19.9062,19.1213
+RPW94SS1,tolerant,6,6,-14.6487,13.483
+SUWEON,moderately tolerant,6,6,-19.9516,27.4433

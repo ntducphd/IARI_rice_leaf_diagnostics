@@ -1,0 +1,129 @@
+trait	full_name	unit	timepoint	blocks_containing_it	complete_model_LD_coefficient
+constant	LDA intercept (constant term of the discriminant function)	no units	n/a	Complete;Mor_0;Mor_30;Mor_60;PT_30;PT_60;PB_30;PB_60;PT+B_30;PT+B_60;FL;GY;GR;RR_30;RR_60	0.43
+PH_0	Plant height at 0 DAT	cm	0 DAT	Complete;Mor_0	0.52
+TLL_0	Top leaf length at 0 DAT	cm	0 DAT	Complete;Mor_0	-0.70
+TLW_0	Top leaf width at 0 DAT	cm	0 DAT	Complete;Mor_0	0.96
+BLL_0	Bottom leaf length at 0 DAT	cm	0 DAT	Complete;Mor_0	-0.02
+BLW_0	Bottom leaf width at 0 DAT	cm	0 DAT	Complete;Mor_0	-0.33
+rLL_0	Relative ratio of leaf length (bottom leaf : top leaf) at 0 DAT	no units	0 DAT	Complete;RR_30	-0.82
+rLW_0	Relative ratio of leaf width (bottom leaf : top leaf) at 0 DAT	no units	0 DAT	Complete;RR_30	0.61
+SFW_0	Shoot fresh weight at 0 DAT	g	0 DAT	Complete;Mor_0	0.35
+RFW_0	Root fresh weight at 0 DAT	g	0 DAT	Complete;Mor_0	0.16
+SDW_0	Shoot dry weight at 0 DAT	g	0 DAT	Complete;Mor_0	-0.52
+RDW_0	Root dry weight at 0 DAT	g	0 DAT	Complete;Mor_0	-0.21
+Photo_0	Net photosynthesis at 0 DAT	umol CO2 m-2 s-1	0 DAT	Complete	-0.80
+Cond_0	Stomatal conductance at 0 DAT	mol H2O m-2 s-1	0 DAT	Complete	0.31
+Ci_0	Intercellular CO2 concentration at 0 DAT	umol CO2 m-2 s-1	0 DAT	Complete	0.52
+Tr_0	Transpiration rate at 0 DAT	mmol H2O m-2 s-1	0 DAT	Complete	0.25
+Vpd_0	Vapour pressure deficit at 0 DAT	umol CO2/mol air (as printed p50; unit is wrong for VPD)	0 DAT	Complete	0.31
+CT_0	NOT_DEFINED_IN_THESIS	NOT_DEFINED_IN_THESIS	0 DAT	Complete	0.40
+RL_0	Total root length at 0 DAT	cm	0 DAT	Complete;Mor_0	0.70
+PA_0	Root projected area at 0 DAT	cm2	0 DAT	Complete;Mor_0	0.12
+SA_0	Root surface area at 0 DAT	cm2	0 DAT	Complete;Mor_0	-0.45
+AD_0	Root average diameter at 0 DAT	mm	0 DAT	Complete;Mor_0	-0.82
+LPV_0	Root length per volume at 0 DAT	cm/m3	0 DAT	Complete;Mor_0	-0.20
+RV_0	Root volume at 0 DAT	m3	0 DAT	Complete;Mor_0	0.46
+TPS_0	Root tips at 0 DAT	number	0 DAT	Complete;Mor_0	-0.57
+PH_30	Plant height at 30 DAT	cm	30 DAT	Complete;Mor_30	0.79
+TN_30	Tiller number at 30 DAT	number (tillers per pot)	30 DAT	Complete;Mor_30	-0.91
+LN_30	Leaf number at 30 DAT	number (leaves per plant)	30 DAT	Complete;Mor_30	0.51
+TLL_30	Top leaf length at 30 DAT	cm	30 DAT	Complete;Mor_30	0.08
+BLL_30	Bottom leaf length at 30 DAT	cm	30 DAT	Complete;Mor_30	0.31
+TLW_30	Top leaf width at 30 DAT	cm	30 DAT	Complete;Mor_30	-0.95
+BLW_30	Bottom leaf width at 30 DAT	cm	30 DAT	Complete;Mor_30	0.04
+rLL_30	Relative ratio of leaf length (bottom leaf : top leaf) at 30 DAT	no units	30 DAT	Complete;RR_30	0.45
+rLW_30	Relative ratio of leaf width (bottom leaf : top leaf) at 30 DAT	no units	30 DAT	Complete;RR_30	-0.08
+CCI_TL_30	Chlorophyll concentration index of the top leaf at 30 DAT	umol m-2	30 DAT	Complete;PT_30;PT+B_30	0.15
+CCI_BL_30	Chlorophyll concentration index of the bottom leaf at 30 DAT	umol m-2	30 DAT	Complete;PB_30;PT+B_30	0.32
+QY_TL_30	Quantum yield of PSII photochemistry (Fv/Fm, dark-adapted) of the top leaf at 30 DAT	no units	30 DAT	Complete;PT_30;PT+B_30	-1.05
+QY_BL_30	Quantum yield of PSII photochemistry (Fv/Fm, dark-adapted) of the bottom leaf at 30 DAT	no units	30 DAT	Complete;PB_30;PT+B_30	-1.29
+rCCI_30	Relative ratio of chlorophyll concentration index (bottom leaf : top leaf) at 30 DAT	no units	30 DAT	Complete;RR_30	-3.18
+rQY_30	Relative ratio of quantum yield (bottom leaf : top leaf) at 30 DAT	no units	30 DAT	Complete;RR_30	-0.42
+SFW_30	Shoot fresh weight at 30 DAT	g	30 DAT	Complete;Mor_30	-0.67
+SDW_30	Shoot dry weight at 30 DAT	g	30 DAT	Complete;Mor_30	0.29
+RFW_30	Root fresh weight at 30 DAT	g	30 DAT	Complete;Mor_30	-0.35
+RDW_30	Root dry weight at 30 DAT	g	30 DAT	Complete;Mor_30	1.64
+Photo_TL_30	Net photosynthesis of the top leaf at 30 DAT	umol CO2 m-2 s-1	30 DAT	Complete;PT_30;PT+B_30	0.15
+Cond_TL_30	Stomatal conductance of the top leaf at 30 DAT	mol H2O m-2 s-1	30 DAT	Complete;PT_30;PT+B_30	0.35
+Ci_TL_30	Intercellular CO2 concentration of the top leaf at 30 DAT	umol CO2 m-2 s-1	30 DAT	Complete;PT_30;PT+B_30	0.48
+Tr_TL_30	Transpiration rate of the top leaf at 30 DAT	mmol H2O m-2 s-1	30 DAT	Complete;PT_30;PT+B_30	-0.19
+Photo_BL_30	Net photosynthesis of the bottom leaf at 30 DAT	umol CO2 m-2 s-1	30 DAT	Complete;PB_30;PT+B_30	1.29
+Cond_BL_30	Stomatal conductance of the bottom leaf at 30 DAT	mol H2O m-2 s-1	30 DAT	Complete;PB_30;PT+B_30	-0.33
+Ci_BL_30	Intercellular CO2 concentration of the bottom leaf at 30 DAT	umol CO2 m-2 s-1	30 DAT	Complete;PB_30;PT+B_30	-0.48
+Tr_BL_30	Transpiration rate of the bottom leaf at 30 DAT	mmol H2O m-2 s-1	30 DAT	Complete;PB_30;PT+B_30	-0.86
+rPhoto_30	Relative ratio of net photosynthesis (bottom leaf : top leaf) at 30 DAT	no units	30 DAT	Complete;RR_30	0.30
+rCond_30	Relative ratio of stomatal conductance (bottom leaf : top leaf) at 30 DAT	no units	30 DAT	Complete;RR_30	0.03
+rCi_30	Relative ratio of intercellular CO2 concentration (bottom leaf : top leaf) at 30 DAT	no units	30 DAT	Complete;RR_30	1.22
+rTr_30	Relative ratio of transpiration rate (bottom leaf : top leaf) at 30 DAT	no units	30 DAT	Complete;RR_30	-0.95
+RL_30	Total root length at 30 DAT	cm	30 DAT	Complete;Mor_30	-0.18
+PA_30	Root projected area at 30 DAT	cm2	30 DAT	Complete;Mor_30	0.52
+SA_30	Root surface area at 30 DAT	cm2	30 DAT	Complete;Mor_30	0.46
+AD_30	Root average diameter at 30 DAT	mm	30 DAT	Complete;Mor_30	-0.33
+LPV_30	Root length per volume at 30 DAT	cm/m3	30 DAT	Complete;Mor_30	0.25
+RV_30	Root volume at 30 DAT	m3	30 DAT	Complete;Mor_30	-0.02
+TPS_30	Root tips at 30 DAT	number	30 DAT	Complete;Mor_30	-0.67
+PH_60	Plant height at 60 DAT	cm	60 DAT	Complete;Mor_60	0.417
+TN_60	Tiller number at 60 DAT	number (tillers per pot)	60 DAT	Complete;Mor_60	-0.34
+LN_60	Leaf number at 60 DAT	number (leaves per plant)	60 DAT	Complete;Mor_60	-0.11
+TLL_60	Top leaf length at 60 DAT	cm	60 DAT	Complete;Mor_60	-0.21
+BLL_60	Bottom leaf length at 60 DAT	cm	60 DAT	Complete;Mor_60	-1.04
+TLW_60	Top leaf width at 60 DAT	cm	60 DAT	Complete;Mor_60	0.09
+BLW_60	Bottom leaf width at 60 DAT	cm	60 DAT	Complete;Mor_60	-0.32
+CC_TL_60	Chlorophyll concentration index (printed CC_ at 60 DAT only) of the top leaf at 60 DAT	umol m-2	60 DAT	Complete;PT_60;PT+B_60	-0.62
+CC_BL_60	Chlorophyll concentration index (printed CC_ at 60 DAT only) of the bottom leaf at 60 DAT	umol m-2	60 DAT	Complete;PB_60;PT+B_60	-0.82
+QY_TL_60	Quantum yield of PSII photochemistry (Fv/Fm, dark-adapted) of the top leaf at 60 DAT	no units	60 DAT	Complete;PT_60;PT+B_60	-2.18
+QY_BL_60	Quantum yield of PSII photochemistry (Fv/Fm, dark-adapted) of the bottom leaf at 60 DAT	no units	60 DAT	Complete;PB_60;PT+B_60	-2.83
+rLL_60	Relative ratio of leaf length (bottom leaf : top leaf) at 60 DAT	no units	60 DAT	Complete;RR_60	-0.56
+rLW_60	Relative ratio of leaf width (bottom leaf : top leaf) at 60 DAT	no units	60 DAT	Complete;RR_60	0.33
+rCCI_60	Relative ratio of chlorophyll concentration index (bottom leaf : top leaf) at 60 DAT	no units	60 DAT	Complete;RR_60	-0.36
+rQY_60	Relative ratio of quantum yield (bottom leaf : top leaf) at 60 DAT	no units	60 DAT	Complete;RR_60	-0.28
+dCCI_30	Difference in chlorophyll concentration index (top leaf - bottom leaf) at 30 DAT	umol m-2	30 DAT	Complete	-0.31
+dQY_30	Difference in quantum yield (top leaf - bottom leaf) at 30 DAT	no units	30 DAT	Complete	-0.23
+SFW_60	Shoot fresh weight at 60 DAT	g	60 DAT	Complete;Mor_60	0.65
+SDW_60C	Shoot dry weight at 60 DAT (printed SDW_60 in Table 4.4 p75; the trailing "C" is undefined and appears in both the control (Table 4.13 p82) and the N-stress (Table 4.15 p84) tables)	g	60 DAT	Complete;Mor_60	0.73
+RFW_60	Root fresh weight at 60 DAT	g	60 DAT	Complete;Mor_60	-1.18
+RDW_60	Root dry weight at 60 DAT	g	60 DAT	Complete;Mor_60	-0.44
+Photo_TL_60	Net photosynthesis of the top leaf at 60 DAT	umol CO2 m-2 s-1	60 DAT	Complete;PT_60;PT+B_60	0.02
+Cond_TL_60	Stomatal conductance of the top leaf at 60 DAT	mol H2O m-2 s-1	60 DAT	Complete;PT_60;PT+B_60	-0.70
+Ci_TL_60	Intercellular CO2 concentration of the top leaf at 60 DAT	umol CO2 m-2 s-1	60 DAT	Complete;PT_60;PT+B_60	-0.25
+Tr_TL_60	Transpiration rate of the top leaf at 60 DAT	mmol H2O m-2 s-1	60 DAT	Complete;PT_60;PT+B_60	-0.58
+Photo_BL_60	Net photosynthesis of the bottom leaf at 60 DAT	umol CO2 m-2 s-1	60 DAT	Complete;PB_60;PT+B_60	0.49
+Cond_BL_60	Stomatal conductance of the bottom leaf at 60 DAT	mol H2O m-2 s-1	60 DAT	Complete;PB_60;PT+B_60	-0.41
+Ci_BL_60	Intercellular CO2 concentration of the bottom leaf at 60 DAT	umol CO2 m-2 s-1	60 DAT	Complete;PB_60;PT+B_60	0.28
+Tr_BL_60	Transpiration rate of the bottom leaf at 60 DAT	mmol H2O m-2 s-1	60 DAT	Complete;PB_60;PT+B_60	-0.87
+rPhoto_60	Relative ratio of net photosynthesis (bottom leaf : top leaf) at 60 DAT	no units	60 DAT	Complete;RR_60	-0.08
+rCond_60	Relative ratio of stomatal conductance (bottom leaf : top leaf) at 60 DAT	no units	60 DAT	Complete;RR_60	0.50
+rCi_60	Relative ratio of intercellular CO2 concentration (bottom leaf : top leaf) at 60 DAT	no units	60 DAT	Complete;RR_60	0.56
+rTr_60	Relative ratio of transpiration rate (bottom leaf : top leaf) at 60 DAT	no units	60 DAT	Complete;RR_60	-0.33
+dCCI_60	Difference in chlorophyll concentration index (top leaf - bottom leaf) at 60 DAT	umol m-2	60 DAT	Complete	0.16
+dQY_60	Difference in quantum yield (top leaf - bottom leaf) at 60 DAT	no units	60 DAT	Complete	-0.07
+RL_60	Total root length at 60 DAT	cm	60 DAT	Complete;Mor_60	-0.57
+PA_60	Root projected area at 60 DAT	cm2	60 DAT	Complete;Mor_60	-0.15
+SA_60	Root surface area at 60 DAT	cm2	60 DAT	Complete;Mor_60	-0.15
+AD_60	Root average diameter at 60 DAT	mm	60 DAT	Complete;Mor_60	-1.06
+LPV_60	Root length per volume at 60 DAT	cm/m3	60 DAT	Complete;Mor_60	0.11
+RV_60	Root volume at 60 DAT	m3	60 DAT	Complete;Mor_60	1.48
+TPS_60	Root tips at 60 DAT	number	60 DAT	Complete;Mor_60	0.48
+FLL_C	Flag leaf length (printed FLL in Table 3.3 p52 and Table 4.6 p76; the "_C" suffix is undefined)	cm	Flag leaf stage	Complete;FL	-0.46
+FLW_C	Flag leaf width (printed FLW in Table 3.3 p52 and Table 4.6 p76; the "_C" suffix is undefined)	cm	Flag leaf stage	Complete;FL	-1.07
+CCI_FL	Chlorophyll concentration index of flag leaf	umol m-2	Flag leaf stage	Complete;FL	-0.54
+QY_FL	Quantum yield of flag leaf	no units	Flag leaf stage	Complete;FL	-0.19
+Photo_FL	Net photosynthesis of flag leaf	umol CO2 m-2 s-1	Flag leaf stage	Complete;FL	0.05
+Cond_FL	Stomatal conductance of flag leaf	mol H2O m-2 s-1	Flag leaf stage	Complete;FL	0.11
+Ci_FL	Intercellular CO2 concentration of flag leaf	umol CO2 m-2 s-1	Flag leaf stage	Complete;FL	0.37
+Tr_FL	Transpiration rate of flag leaf	mmol H2O m-2 s-1	Flag leaf stage	Complete;FL	0.76
+DTB	Days to booting	days	Maturity / harvest	Complete;GY	0.02
+DTH	Days to heading (50% flowering)	days	Maturity / harvest	Complete;GY	-0.02
+DTM	Days to maturity	days	Maturity / harvest	Complete;GY	-0.05
+PH	Plant height at maturity	cm	Maturity / harvest	Complete;GY	-0.15
+TN	Tiller number at maturity	number	Maturity / harvest	Complete;GY	0.96
+PT	Productive tillers (panicles per pot)	number	Maturity / harvest	Complete;GY	0.24
+SFW	Shoot fresh weight at maturity	g	Maturity / harvest	Complete;GY	-0.51
+SDW	Shoot dry weight at maturity	g	Maturity / harvest	Complete;GY	-0.36
+GWPP	Grain weight per plant (Table 3.3 p52 and p172) BUT "Grain weight per panicle" in Table 4.7 note p77 and p69 - CONFLICT	g	Maturity / harvest	Complete;GY	0.10
+TGW	1000-grain weight (Table 3.3 p52) / "Thousand grain weight" (p172) BUT "Total grain weight" in Table 4.7 note p77 and p69 - CONFLICT	g	Maturity / harvest	Complete;GY	-0.27
+HI	Harvest index (grain weight / biomass)	percentage	Maturity / harvest	Complete;GY	0.48
+AGR_30-0	Absolute growth rate, 0 to 30 DAT	total growth/time (as printed p53)	0-30 DAT interval	Complete;GR	0.26
+AGR_60-30	Absolute growth rate, 30 to 60 DAT	total growth/time (as printed p53)	30-60 DAT interval	Complete;GR	0.48
+RGR_30-0	Relative growth rate, 0 to 30 DAT	mg g-1 day-1	0-30 DAT interval	Complete;GR	1.03
+RGR_60-30	Relative growth rate, 30 to 60 DAT	mg g-1 day-1	30-60 DAT interval	Complete;GR	0.86

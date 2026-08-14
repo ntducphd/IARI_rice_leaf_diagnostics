@@ -1,0 +1,2 @@
+model_a,model_b,lda_only_correct,ridge_only_correct,n_discordant,mcnemar_exact_p
+LDA,"Ridge logistic (L2, C=1.0)",4,0,4,0.125

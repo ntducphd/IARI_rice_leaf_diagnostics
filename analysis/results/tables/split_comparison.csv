@@ -1,0 +1,4 @@
+model,random_mean,random_lo,random_hi,random_pct_perfect,logocv
+rCCI_30,0.921111,0.777778,1,18.2,0.922222
+QY_BL_30,0.977778,0.888889,1,64.6,0.977778
+both,0.999778,1,1,99.6,1

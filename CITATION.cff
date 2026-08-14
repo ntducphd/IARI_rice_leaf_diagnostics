@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the associated paper and this archive."
+title: "IARI_rice_leaf_diagnostics: leaf-position discriminant diagnostics for rice fertiliser regime"
+abstract: >-
+  Analysis code and data reproducing a leaf-position chlorophyll-index and PSII quantum-yield
+  linear discriminant rule that separates fertilised from unfertilised rice at 30 days after
+  transplanting, validated with whole genotypes held out of training.
+type: software
+authors:
+  - family-names: "Harika"
+    given-names: "Amooru"
+    affiliation: "Division of Plant Physiology / Nanaji Deshmukh Plant Phenomics Centre, ICAR-Indian Agricultural Research Institute, New Delhi, India; Department of Plant and Environmental Sciences, Clemson University, Clemson, SC, United States"
+  - family-names: "Raju"
+    given-names: "Dhandapani"
+    affiliation: "Division of Plant Physiology / Nanaji Deshmukh Plant Phenomics Centre, ICAR-Indian Agricultural Research Institute, New Delhi, India"
+    email: "dandyman2k6@gmail.com"
+  - family-names: "Nguyen"
+    given-names: "Trung Duc"
+    orcid: "https://orcid.org/0000-0003-1225-2515"
+    affiliation: "Division of Plant Physiology / Nanaji Deshmukh Plant Phenomics Centre, ICAR-Indian Agricultural Research Institute, New Delhi, India; Vietnam National University of Agriculture, Hanoi, Vietnam"
+  - family-names: "Ezhumalai"
+    given-names: "Sivapragasam"
+    affiliation: "Nanaji Deshmukh Plant Phenomics Centre, ICAR-Indian Agricultural Research Institute, New Delhi, India"
+  - family-names: "Kumar"
+    given-names: "Sudhir"
+    affiliation: "Division of Plant Physiology / Nanaji Deshmukh Plant Phenomics Centre, ICAR-Indian Agricultural Research Institute, New Delhi, India"
+  - family-names: "Chinnusamy"
+    given-names: "Viswanathan"
+    affiliation: "Division of Plant Physiology / Nanaji Deshmukh Plant Phenomics Centre, ICAR-Indian Agricultural Research Institute, New Delhi, India"
+repository-code: "https://github.com/ntducphd/IARI_rice_leaf_diagnostics"
+license: MIT
+version: 1.0.0
+keywords:
+  - rice
+  - leaf position
+  - chlorophyll concentration index
+  - chlorophyll fluorescence
+  - linear discriminant analysis
+  - leave-one-genotype-out cross-validation
+  - non-destructive phenotyping
+  - nitrogen top-dressing

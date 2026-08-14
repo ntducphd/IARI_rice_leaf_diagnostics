@@ -1,0 +1,15 @@
+check,stat_1,stat_2,value,detail
+mcnemar_QY_BL_vs_pair,2.0,0.0,0.5,discordant plants: QY_BL wrong and pair right / pair wrong and QY_BL right; exact two-sided P
+mcnemar_rCCI_vs_pair,7.0,0.0,0.015625,discordant plants; exact two-sided P
+min_margin_two_trait_Fv_Fm,86.0,,0.015,"nearest plant CAUVERY NStress; next two 0.0229, 0.0333"
+min_margin_single_cut_0.78,,,0.02,smallest distance of any plant to a single cut on QY_BL_30 at 0.78
+distinct_QY_values_control,6.0,,6.0,0.80-0.85
+distinct_QY_values_lowN,14.0,,14.0,0.59-0.76
+jitter_0.005_pair_pct_perfect,1000.0,717.0,71.7,"mean correct 89.72 of 90, baseline 90"
+jitter_0.005_QY_BL_pct_perfect,1000.0,0.0,0.0,"single-trait rule, same draws; mean correct 88.00 of 90, baseline 88"
+jitter_0.005_loss_from_own_baseline,0.283,0.0,-0.283,"plants lost on average: pair, then single, then the difference"
+jitter_0.01_pair_pct_perfect,1000.0,646.0,64.6,"mean correct 89.65 of 90, baseline 90"
+jitter_0.01_QY_BL_pct_perfect,1000.0,0.0,0.0,"single-trait rule, same draws; mean correct 88.14 of 90, baseline 88"
+jitter_0.01_loss_from_own_baseline,0.354,-0.144,-0.498,"plants lost on average: pair, then single, then the difference"
+rCCI_threshold_imported_0.909,75.0,90.0,0.8333,Wu et al. cut-off applied unchanged
+rCCI_threshold_refitted,85.0,90.0,0.73,"same index, cut-off re-optimised on these data: 85 of 90 correct"

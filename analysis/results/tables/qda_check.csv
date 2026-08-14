@@ -1,0 +1,4 @@
+scheme,model,correct,n,accuracy,ci_lo,ci_hi,agreement_with_linear
+leave-one-genotype-out,linear discriminant,90,90,1.0,0.959841,1,90
+leave-one-genotype-out,quadratic discriminant,90,90,1.0,0.959841,1,90
+leave-one-genotype-out,logistic regression,86,90,0.955556,0.890099,0.987759,86

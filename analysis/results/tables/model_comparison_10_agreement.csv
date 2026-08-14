@@ -1,0 +1,101 @@
+model_a,model_b,agree_n
+QY_BL_30 threshold (fit per fold),QY_BL_30 threshold (fit per fold),90
+QY_BL_30 threshold (fit per fold),rCCI_30 Wu-2024 fixed cutoff 0.909,73
+QY_BL_30 threshold (fit per fold),rCCI_30 threshold (fit per fold),79
+QY_BL_30 threshold (fit per fold),LDA,88
+QY_BL_30 threshold (fit per fold),Logistic regression,88
+QY_BL_30 threshold (fit per fold),"Ridge logistic (L2, C=1.0)",84
+QY_BL_30 threshold (fit per fold),QDA,88
+QY_BL_30 threshold (fit per fold),"Shrinkage LDA (RDA proxy, lsqr+auto)",88
+QY_BL_30 threshold (fit per fold),Gaussian Naive Bayes,88
+QY_BL_30 threshold (fit per fold),Linear SVM (C=1.0),88
+rCCI_30 Wu-2024 fixed cutoff 0.909,QY_BL_30 threshold (fit per fold),73
+rCCI_30 Wu-2024 fixed cutoff 0.909,rCCI_30 Wu-2024 fixed cutoff 0.909,90
+rCCI_30 Wu-2024 fixed cutoff 0.909,rCCI_30 threshold (fit per fold),72
+rCCI_30 Wu-2024 fixed cutoff 0.909,LDA,75
+rCCI_30 Wu-2024 fixed cutoff 0.909,Logistic regression,75
+rCCI_30 Wu-2024 fixed cutoff 0.909,"Ridge logistic (L2, C=1.0)",73
+rCCI_30 Wu-2024 fixed cutoff 0.909,QDA,75
+rCCI_30 Wu-2024 fixed cutoff 0.909,"Shrinkage LDA (RDA proxy, lsqr+auto)",75
+rCCI_30 Wu-2024 fixed cutoff 0.909,Gaussian Naive Bayes,75
+rCCI_30 Wu-2024 fixed cutoff 0.909,Linear SVM (C=1.0),75
+rCCI_30 threshold (fit per fold),QY_BL_30 threshold (fit per fold),79
+rCCI_30 threshold (fit per fold),rCCI_30 Wu-2024 fixed cutoff 0.909,72
+rCCI_30 threshold (fit per fold),rCCI_30 threshold (fit per fold),90
+rCCI_30 threshold (fit per fold),LDA,81
+rCCI_30 threshold (fit per fold),Logistic regression,81
+rCCI_30 threshold (fit per fold),"Ridge logistic (L2, C=1.0)",85
+rCCI_30 threshold (fit per fold),QDA,81
+rCCI_30 threshold (fit per fold),"Shrinkage LDA (RDA proxy, lsqr+auto)",81
+rCCI_30 threshold (fit per fold),Gaussian Naive Bayes,81
+rCCI_30 threshold (fit per fold),Linear SVM (C=1.0),81
+LDA,QY_BL_30 threshold (fit per fold),88
+LDA,rCCI_30 Wu-2024 fixed cutoff 0.909,75
+LDA,rCCI_30 threshold (fit per fold),81
+LDA,LDA,90
+LDA,Logistic regression,90
+LDA,"Ridge logistic (L2, C=1.0)",86
+LDA,QDA,90
+LDA,"Shrinkage LDA (RDA proxy, lsqr+auto)",90
+LDA,Gaussian Naive Bayes,90
+LDA,Linear SVM (C=1.0),90
+Logistic regression,QY_BL_30 threshold (fit per fold),88
+Logistic regression,rCCI_30 Wu-2024 fixed cutoff 0.909,75
+Logistic regression,rCCI_30 threshold (fit per fold),81
+Logistic regression,LDA,90
+Logistic regression,Logistic regression,90
+Logistic regression,"Ridge logistic (L2, C=1.0)",86
+Logistic regression,QDA,90
+Logistic regression,"Shrinkage LDA (RDA proxy, lsqr+auto)",90
+Logistic regression,Gaussian Naive Bayes,90
+Logistic regression,Linear SVM (C=1.0),90
+"Ridge logistic (L2, C=1.0)",QY_BL_30 threshold (fit per fold),84
+"Ridge logistic (L2, C=1.0)",rCCI_30 Wu-2024 fixed cutoff 0.909,73
+"Ridge logistic (L2, C=1.0)",rCCI_30 threshold (fit per fold),85
+"Ridge logistic (L2, C=1.0)",LDA,86
+"Ridge logistic (L2, C=1.0)",Logistic regression,86
+"Ridge logistic (L2, C=1.0)","Ridge logistic (L2, C=1.0)",90
+"Ridge logistic (L2, C=1.0)",QDA,86
+"Ridge logistic (L2, C=1.0)","Shrinkage LDA (RDA proxy, lsqr+auto)",86
+"Ridge logistic (L2, C=1.0)",Gaussian Naive Bayes,86
+"Ridge logistic (L2, C=1.0)",Linear SVM (C=1.0),86
+QDA,QY_BL_30 threshold (fit per fold),88
+QDA,rCCI_30 Wu-2024 fixed cutoff 0.909,75
+QDA,rCCI_30 threshold (fit per fold),81
+QDA,LDA,90
+QDA,Logistic regression,90
+QDA,"Ridge logistic (L2, C=1.0)",86
+QDA,QDA,90
+QDA,"Shrinkage LDA (RDA proxy, lsqr+auto)",90
+QDA,Gaussian Naive Bayes,90
+QDA,Linear SVM (C=1.0),90
+"Shrinkage LDA (RDA proxy, lsqr+auto)",QY_BL_30 threshold (fit per fold),88
+"Shrinkage LDA (RDA proxy, lsqr+auto)",rCCI_30 Wu-2024 fixed cutoff 0.909,75
+"Shrinkage LDA (RDA proxy, lsqr+auto)",rCCI_30 threshold (fit per fold),81
+"Shrinkage LDA (RDA proxy, lsqr+auto)",LDA,90
+"Shrinkage LDA (RDA proxy, lsqr+auto)",Logistic regression,90
+"Shrinkage LDA (RDA proxy, lsqr+auto)","Ridge logistic (L2, C=1.0)",86
+"Shrinkage LDA (RDA proxy, lsqr+auto)",QDA,90
+"Shrinkage LDA (RDA proxy, lsqr+auto)","Shrinkage LDA (RDA proxy, lsqr+auto)",90
+"Shrinkage LDA (RDA proxy, lsqr+auto)",Gaussian Naive Bayes,90
+"Shrinkage LDA (RDA proxy, lsqr+auto)",Linear SVM (C=1.0),90
+Gaussian Naive Bayes,QY_BL_30 threshold (fit per fold),88
+Gaussian Naive Bayes,rCCI_30 Wu-2024 fixed cutoff 0.909,75
+Gaussian Naive Bayes,rCCI_30 threshold (fit per fold),81
+Gaussian Naive Bayes,LDA,90
+Gaussian Naive Bayes,Logistic regression,90
+Gaussian Naive Bayes,"Ridge logistic (L2, C=1.0)",86
+Gaussian Naive Bayes,QDA,90
+Gaussian Naive Bayes,"Shrinkage LDA (RDA proxy, lsqr+auto)",90
+Gaussian Naive Bayes,Gaussian Naive Bayes,90
+Gaussian Naive Bayes,Linear SVM (C=1.0),90
+Linear SVM (C=1.0),QY_BL_30 threshold (fit per fold),88
+Linear SVM (C=1.0),rCCI_30 Wu-2024 fixed cutoff 0.909,75
+Linear SVM (C=1.0),rCCI_30 threshold (fit per fold),81
+Linear SVM (C=1.0),LDA,90
+Linear SVM (C=1.0),Logistic regression,90
+Linear SVM (C=1.0),"Ridge logistic (L2, C=1.0)",86
+Linear SVM (C=1.0),QDA,90
+Linear SVM (C=1.0),"Shrinkage LDA (RDA proxy, lsqr+auto)",90
+Linear SVM (C=1.0),Gaussian Naive Bayes,90
+Linear SVM (C=1.0),Linear SVM (C=1.0),90

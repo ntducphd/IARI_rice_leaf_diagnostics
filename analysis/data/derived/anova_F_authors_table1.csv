@@ -1,0 +1,21 @@
+trait,position,F_genotype,F_treatment,F_GxT,source
+Photo_TL,top,6.13,20.60,4.80,Maintable.docx Table 1
+Cond_TL,top,0.88,16.59,0.60,Maintable.docx Table 1
+Ci_TL,top,6.78,14.14,0.53,Maintable.docx Table 1
+Tr_TL,top,15.62,4.28,1.949,Maintable.docx Table 1
+CCI_TL,top,57.24,0.09,38.57,Maintable.docx Table 1
+QY_TL,top,4.25,537.82,4.50,Maintable.docx Table 1
+Photo_BL,bottom,1.81,69.35,1.99,Maintable.docx Table 1
+Cond_BL,bottom,1.28,149.55,0.43,Maintable.docx Table 1
+Ci_BL,bottom,6.34,3.51,0.45,Maintable.docx Table 1
+Tr_BL,bottom,2.32,186.00,1.10,Maintable.docx Table 1
+CCI_BL,bottom,57.29,778.64,44.84,Maintable.docx Table 1
+QY_BL,bottom,7.06,1890.47,7.25,Maintable.docx Table 1
+rPhoto,ratio,1.23,89.49,0.65,Maintable.docx Table 1
+rCond,ratio,0.62,33.13,0.52,Maintable.docx Table 1
+rCi,ratio,1.36,1.20,0.54,Maintable.docx Table 1
+rTr,ratio,2.60,168.76,1.04,Maintable.docx Table 1
+rCCI,ratio,5.25,571.09,3.09,Maintable.docx Table 1
+rQY,ratio,3.15,382.73,3.32,Maintable.docx Table 1
+dCCI,ratio,10.83,459.33,6.16,Maintable.docx Table 1
+dQY,ratio,2.78,320.23,3.12,Maintable.docx Table 1
