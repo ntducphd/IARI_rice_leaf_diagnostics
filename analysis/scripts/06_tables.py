@@ -4,19 +4,13 @@
 Tables 2, 3 and 4 are produced by stages 2, 3 and 4. This stage builds Table 1, assembles the
 supplementary tables, and renders the whole set into a single DOCX with grid borders and footnotes.
 
-Rewritten 2026-08-03 after the table audit. Six things were wrong and are fixed here:
-  * one '%.4g' formatter served every column, so decimals varied inside a column and 1.000 printed
-    as a bare '1'. Formats are now declared per column, per table.
-  * Table 4 printed 145.3 where the legend and the Results quote 145.3104, so the published
-    function could not be reproduced from the published table.
-  * the legends were hard-coded here AND written in sources/09_Table_legends.md, and had drifted.
-    That file is now the only source; this stage parses it.
-  * Table 2 shipped 34 columns for two rows, four of them design constants and two of them exact
-    duplicates of another column. It is now rendered in long form, in three blocks.
-  * the tolerance-class table was written as 'SuppTable_S1', a number the legend file reserves for
-    the author-supplied genotype list. It is now S9, and S1 is the genotype list.
-  * SuppTable_S5 shipped as five bare columns with its provenance recorded nowhere in the file, and
-    with a genotype key that would not join to S4 or S9.
+Formats are declared per column, per table (not one global formatter), so decimals stay consistent
+within a column. Table 4's fitted-function coefficients are printed at full computed precision
+(the constant is 145.1987, not a rounded 145.2), so the published function is reproducible from
+the published table. Table legends live only in sources/09_Table_legends.md, which this stage parses.
+Table 2 is rendered in long form, in three blocks, to avoid duplicate/derived columns.
+Supplementary table numbering: S1 is the author-supplied genotype list; the tolerance-class table
+is S9. SuppTable_S5's genotype key is aligned to S4/S9 for joins.
 
 Outputs: results/tables/Table1_traits.csv, SuppTable_*.csv, results/tables/Tables.docx
 """
@@ -291,7 +285,7 @@ def supp_tables():
         pl.to_csv(f, index=False)
     made.append(p)
 
-    # --- S6, S7, S8: cited in Methods and Results, previously shipped only under raw names ---
+    # --- S6, S7, S8: cited in Methods and Results ---
     for n, stem in ((6, "robustness_checks"), (7, "trait_pair_decision"),
                     (8, "within_treatment_genotype")):
         raw = os.path.join(TABLES, stem + ".csv")
@@ -339,8 +333,6 @@ def supp_tables():
     # --- S9 tolerance classes --------------------------------------------
     gl = pd.read_csv(os.path.join(DERIVED, "genotype_tolerance.csv"))
     gl["genotype_code"] = gl["genotype_name"].map(gkey).map(code)
-    # "thesis Table 4.26 p132" is a pointer into an unreleased internal document; a reader of the
-    # supplement cannot follow it.
     gl["source"] = "Published for this experiment [29]"
     gl = gl.rename(columns={"genotype_code": "Genotype code", "genotype_name": "Genotype",
                             "tolerance_class": "Tolerance class",
@@ -348,7 +340,6 @@ def supp_tables():
                             "source": "Source"})
     gl = gl[["Genotype code", "Genotype", "Cluster (average linkage, low N)",
              "Tolerance class", "Source"]]
-    # This file used to be written as "SuppTable_S1"; that number belongs to the genotype list.
     q = os.path.join(TABLES, "SuppTable_S9_tolerance_classes.csv")
     gl.to_csv(q, index=False); made.append(q)
 
@@ -359,9 +350,8 @@ def supp_tables():
 
 # ---------------------------------------------------------------- rendering
 def read_legends():
-    """09_Table_legends.md is the master. Parsing it means the DOCX and the manuscript cannot
-    carry two different legends for the same table, which they did: one said '3 replicate pots'
-    and the other '3 replicate plants' for the same n = 90."""
+    """09_Table_legends.md is the single source for every table legend, so the DOCX and the
+    manuscript text cannot carry two different legends for the same table."""
     out = {}
     if not os.path.exists(LEGENDS):
         return out
@@ -377,11 +367,8 @@ def read_legends():
 
 
 def table3_long():
-    """Table 3 with the rules as columns and the metrics as rows.
-
-    As written it had eighteen columns for three rules. On A4 portrait that gives about 9 mm a
-    column, so every header broke over three or four lines ("Cor / rect / (of / 90)") and values
-    split mid-number. Three rules transpose to three columns and read at full size.
+    """Table 3 with the rules as columns and the metrics as rows, so the three rules read as
+    three columns at full size on A4 portrait rather than being squeezed into narrow header cells.
     """
     d = pd.read_csv(os.path.join(TABLES, "Table3_performance.csv"))
     rows = [

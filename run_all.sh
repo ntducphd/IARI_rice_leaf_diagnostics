@@ -14,6 +14,8 @@ $PY analysis/scripts/01_ingest_raw_data.py
 $PY analysis/scripts/01b_regenerate_genotype_means.py
 echo "[2] descriptives — two-way ANOVA, variance components, heritability"
 $PY analysis/scripts/02_descriptives.py
+echo "[2b] top-leaf CCI ANOVA (30 + 60 DAT) — backs the Abstract's four top-leaf F values"
+$PY analysis/scripts/02b_abstract_top_leaf_stats.py
 echo "[3] LDA + leave-one-genotype-out CV + permutation null"
 $PY analysis/scripts/03_lda_logocv.py
 echo "[3b] validation comparison, tolerance strata, parsimony, bootstraps"

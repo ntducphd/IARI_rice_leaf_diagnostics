@@ -8,14 +8,9 @@
 #   Fig 4  does it classify an unseen genotype complementarity, decision space, scores, accuracy
 #   Fig 5  can a practitioner use it           threshold, sensitivity/specificity, benchmark
 #
-# Rebuilt 2026-08-03 after two figure audits. The canvas is now 180 mm (S.DOUBLE) rather than the
-# 345 mm used before, so the type ladder in figstyle.py is legible at reproduction scale. Panels the
-# audits judged redundant were removed rather than shrunk: the script-flow panel of Figure 1 (internal
-# build documentation), the two rows of Figure 2 merged into one, the slope chart and the 30-vs-60 DAT
-# panel of Figure 3 (both carried by Figure 6), and the ROC panel of Figure 5 (an L-shape carrying no
-# information once a trait separates perfectly). No claim sentence is printed inside any image, every
-# categorical contrast carries a marker as well as a colour, and Figure 4 now leads with the
-# complementarity rather than with a resubstitution fit.
+# Canvas is 180 mm (S.DOUBLE), matching the type ladder in figstyle.py at reproduction scale. No
+# claim sentence is printed inside any image, every categorical contrast carries a marker as well
+# as a colour, and Figure 4 leads with the complementarity rather than with a resubstitution fit.
 # =============================================================================
 import os
 import numpy as np

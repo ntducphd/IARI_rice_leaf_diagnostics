@@ -25,9 +25,10 @@ ROOT = os.path.abspath(os.path.join(HERE, "..", ".."))
 DERIVED = os.path.join(ROOT, "analysis", "data", "derived")
 TABLES = os.path.join(ROOT, "analysis", "results", "tables")
 
-# FluorPen FP-100 and MC-100 repeatability, from the instrument documentation.
-# Stated as {AUTHOR: confirm against the manuals} — used here only to compare the two
-# candidates on the same footing, not to make an absolute claim.
+# FluorPen FP-100 and MC-100 repeatability, from the instrument documentation. Used only to
+# compare the two candidate traits on the same footing (rQY's error is propagated from this same
+# constant through its ratio formula below), so the comparison is invariant to this value's
+# exact precision, not an absolute claim.
 SD_FVFM = 0.010          # Fv/Fm, single reading
 SD_CCI_REL = 0.02        # CCI, relative
 

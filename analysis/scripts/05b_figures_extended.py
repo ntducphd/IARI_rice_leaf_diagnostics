@@ -8,11 +8,10 @@
 #   Fig  9  diagnostics and robustness                bootstraps, permutation null, three classifiers
 #   Fig 10  why one split cannot decide               500 random splits against genotype held out
 #
-# Rebuilt 2026-08-03 after the figure audits and a further review. Four things are fixed throughout:
-#   * canvas is 180 mm, so the type ladder in figstyle.py is legible at reproduction scale
-#   * every number printed on a plot is black; colour is reserved for category, never for a value
-#   * no legend or annotation sits over data — legends are placed outside the plotted region
-#   * every panel that compares two groups prints the test that compares them, from group_tests.csv
+# Canvas is 180 mm, matching the type ladder in figstyle.py at reproduction scale. Every number
+# printed on a plot is black; colour is reserved for category, never for a value. No legend or
+# annotation sits over data — legends are placed outside the plotted region. Every panel that
+# compares two groups prints the test that compares them, from group_tests.csv.
 # =============================================================================
 import os
 import numpy as np

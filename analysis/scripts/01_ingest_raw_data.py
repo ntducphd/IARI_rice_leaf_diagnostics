@@ -10,11 +10,10 @@ here at full computed float precision rather than rounded. QY_BL_30 is itself al
 to 2 decimal places in the source data, so its precision is unchanged by this step; the
 rounding-sensitivity analysis in 04c_robustness_checks.py remains relevant for QY-based results.
 
-Optional legacy check: if a two-decimal-place reference copy of this output is present at
+Optional consistency check: if a two-decimal-place reference copy of this output is present at
 plants_30DAT.tsv.legacy_reference (not shipped with this repository), the script verifies its
 own output reproduces it row-for-row when rounded to 2dp, matched on (genotype, treatment) with
-replicate order ignored, and raises if any group diverges. This is a defensive consistency
-check retained from development; its absence is not an error.
+replicate order ignored, and raises if any group diverges. Its absence is not an error.
 
 Replicate numbering: reps are assigned per (genotype, treatment) in file order as 1-3 for
 Control and 4-6 for NStress, matching the numbering convention used throughout this compendium

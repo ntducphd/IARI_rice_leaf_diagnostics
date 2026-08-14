@@ -2,13 +2,11 @@
 # =============================================================================
 # figstyle.py — ONE shared visual system for every figure in this paper.
 #
-# Rewritten 2026-08-03 after two figure audits. Three things were wrong and are fixed here:
-#   * canvases were 305-345 mm wide against a 180 mm double-column maximum, so the type ladder
-#     collapsed below the legibility floor at reproduction scale. Sizes are now in millimetres.
-#   * the palette was isoluminant — top leaf Y=40 against bottom leaf Y=44 on a 0-255 scale — so
-#     it vanished in greyscale. Every family is now spaced on luminance, not hue.
-#   * MODEL shared hex values with TREAT, so teal meant "control" in one panel of a figure and
-#     "both traits" in the next. The three families are now disjoint, and that is enforced by a test.
+# Canvases are sized in millimetres against a 180 mm double-column maximum, so the type ladder
+# stays legible at reproduction scale. Every family (MODEL, TREAT, top/bottom leaf) is spaced on
+# luminance, not hue, so it survives greyscale reproduction, and each family's hex values are
+# disjoint from every other family's (enforced by a test) so a colour means one thing across every
+# panel of the paper.
 #
 # Nothing may be encoded by colour alone: every categorical contrast also carries a marker or a
 # hatch. Panel letters are positioned in points so they do not drift between figures.
