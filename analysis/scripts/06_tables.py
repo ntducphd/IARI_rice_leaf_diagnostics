@@ -300,10 +300,10 @@ def supp_tables():
 
     # --- S1 the fifteen genotypes ----------------------------------------
     # Transcribed from the authors' own "Supplementary tables.docx", table 1 (Plant ID, Main
-    # Population, Genotype Name, Origin), which the register verified cell by cell against
-    # thesis Table 3.1 p44. It is the one table in their package adopted as given. Only the
-    # spelling of the names is normalised, to the single naming table in figstyle, so that this
-    # table joins to S4, S5 and S9; the authors' own spelling is kept alongside it.
+    # Population, Genotype Name, Origin), verified cell by cell against the source. It is the
+    # one table in their package adopted as given. Only the spelling of the names is normalised,
+    # to the single naming table in figstyle, so that this table joins to S4, S5 and S9; the
+    # authors' own spelling is kept alongside it.
     author_list = [
         ("GT001", "Japonica", "Moroberakan", "Guinea"),
         ("GT002", "Indica", "IR83388-B-B108-3", "India"),
